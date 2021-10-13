@@ -12,13 +12,15 @@ cask "zoomus"
 cask "the-unarchiver"
 mas "Cleaner-App", id: 1013897218
 mas "HazeOver", id: 430798174
+mas "Spark", id: 1176895641
+mas "Slack", id: 803453959
 cask "transmission"
 cask "vlc"
 cask "google-chrome"
 cask "tunnelblick"
 cask "slack"
 cask "telegram-desktop"
-
+cask "openinterminal"
 
 
 # handy macos tools
