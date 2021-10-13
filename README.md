@@ -17,3 +17,5 @@ haze over
 
 (Brew casks)
 qlcolorcode
+
+functions and aliases
