@@ -7,6 +7,14 @@ set -e
 SHELL='/bin/bash'
 export SHELL
 
+# install oh my zh
+echo "installing Oh My Zh"
+/bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install homebrew
+echo "installing HomeBrew"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Standard dotbot pre-configuration:
 
 readonly DOTBOT_DIR='dotbot'
@@ -33,9 +41,7 @@ run_dotbot () {
 }
 
 run_dotbot 'steps/terminal.yml' || true
-if [ "$CODESPACES" = true ]; then
-  run_dotbot 'steps/codespaces.yml' || true
-else
-  run_dotbot 'steps/dependencies.yml' || true
-fi
-run_dotbot 'steps/vscode.yml' || true
+run_dotbot 'steps/dependencies.yml' || true
+
+echo "setting up macOs settings"
+sh ./macos_settings.sh

@@ -31,9 +31,6 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Disable startup noise:
 sudo nvram SystemAudioVolume=%01
 
-# Mojave renders fonts that are too thin for me, use regular pre-mojave style:
-defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
-
 # Scrollbars visible when scrolling:
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 
@@ -48,8 +45,6 @@ defaults write -g NSScrollViewRubberbanding -int 0
 # Maximize windows on double clicking them:
 defaults write -g AppleActionOnDoubleClick 'Maximize'
 
-# Disable multitouch swipes:
-defaults write -g AppleEnableSwipeNavigateWithScrolls -int 0
 
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
@@ -70,8 +65,7 @@ defaults write com.apple.Dock size-immutable -bool yes
 # Show Dock instantly:
 defaults write com.apple.dock autohide-delay -float 0
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+
 
 
 # === Finder ===
@@ -141,13 +135,6 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Diable automatic period substitution:
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
-
-
-# === Time Machine ===
-
-# Prevent Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
 
 # === Activity monitor ===
 

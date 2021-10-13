@@ -1,3 +1,24 @@
+# RUN
+
+We are using [`dotbot`](https://github.com/anishathalye/dotbot/)
+to set things up. Steps:
+
+1. Clone this repo with: `git clone https://github.com/sobolevn/dotfiles dotfiles`
+2. `cd dotfiles/`
+3. Run: [`bash ./install`](https://github.com/sobolevn/dotfiles/blob/master/install)
+
+
+# TO EXPLORE
+docker-clean
+diff-so-fancy
+gh
+
+maccy
+keyboard-cleaner
+haze over
+
+(Brew casks)
+qlcolorcode
 # sobolevn's dotfiles
 
 ![sobolevn's dotfiles](https://raw.githubusercontent.com/sobolevn/dotfiles/master/media/hyper.png)
@@ -18,15 +39,6 @@ What's in there?
 - all my shell configuration including [my own `sobole`](https://github.com/sobolevn/sobole-zsh-theme) theme. See [`shell/`](https://github.com/sobolevn/dotfiles/tree/master/shell) and [`config/zshrc`](https://github.com/sobolevn/dotfiles/blob/master/config/zshrc)
 - all my `vscode` configuration. See [`vscode/`](https://github.com/sobolevn/dotfiles/tree/master/vscode)
 
-
-## Installation
-
-We are using [`dotbot`](https://github.com/anishathalye/dotbot/)
-to set things up. Steps:
-
-1. Clone this repo with: `git clone https://github.com/sobolevn/dotfiles dotfiles`
-2. `cd dotfiles/`
-3. Run: [`bash ./install`](https://github.com/sobolevn/dotfiles/blob/master/install)
 
 
 ## CLI

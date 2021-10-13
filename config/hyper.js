@@ -95,7 +95,7 @@ module.exports = {
 
     // for environment variables
     env: {
-       'SOBOLE_THEME_MODE': 'light'
+       'SOBOLE_THEME_MODE': 'dark'
     },
 
     // set to false for no bell
