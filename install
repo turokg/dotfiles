@@ -42,5 +42,5 @@ run_dotbot () {
 
 run_dotbot 'steps/terminal.yml' || true
 run_dotbot 'steps/dependencies.yml' || true
-
+# setup macos
 sh ./macos_settings.sh

@@ -1,3 +1,5 @@
+
+
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -50,6 +52,8 @@ brew "diff-so-fancy"
 brew "gh"
 brew "git"
 brew "git-delta"
+brew "gls"
+brew "bat"
 
 brew "docker-clean"
 brew "docker-compose"
@@ -59,6 +63,21 @@ brew "readline"
 brew "mas"
 brew "wget"
 
-
-
-
+# some random and maybe useful stuff
+brew "gh"
+brew "ghc"
+brew "git"
+brew "glib"
+brew "bat"
+brew "blueutil"
+brew "coreutils"
+brew "ctags"
+brew "fd"
+brew "fzf"
+brew "gettext"
+brew "gnupg"
+brew "gpgme"
+brew "z"
+brew "zlib"
+brew "zplug"
+brew "zsh"
