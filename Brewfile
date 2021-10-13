@@ -36,6 +36,7 @@ cask "maccy"
 
 # programming desktop apps
 cask "hyper"
+cask "iterm2"
 cask "tableplus"
 cask "postman"
 cask "pycharm"
