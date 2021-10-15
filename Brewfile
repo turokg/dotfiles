@@ -26,6 +26,7 @@ cask "openinterminal"
 
 
 # handy macos tools
+brew "dockutil"
 cask "keyboard-cleaner"
 cask "rectangle"
 cask "qlcolorcode"

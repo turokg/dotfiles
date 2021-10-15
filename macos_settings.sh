@@ -17,6 +17,22 @@ set -e
 
 echo 'Configuring your mac. Hang tight.'
 osascript -e 'tell application "System Preferences" to quit'
+# === Dock Items ===
+dockutil --no-restart --remove all
+dockutil --no-restart --add /System/Applications/Calendar.app
+dockutil --no-restart --add /System/Applications/Notes.app
+dockutil --no-restart --add /System/Applications/Reminders.app
+dockutil --no-restart --add /Applications/Safari.app
+dockutil --no-restart --add /Applications/Google\ Chrome.app
+dockutil --no-restart --add /Applications/Transmission.app
+dockutil --no-restart --add /Applications/Spark.app
+dockutil --no-restart --add /Applications/Slack.app
+dockutil --no-restart --add /Applications/Telegram.app
+dockutil --no-restart --add /Applications/PyCharm.app
+dockutil --no-restart --add /Applications/GoLand.app
+dockutil --no-restart --add /Applications/iTerm.app
+killall Dock
+
 
 
 # === General ===
